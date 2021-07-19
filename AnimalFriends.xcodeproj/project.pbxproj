@@ -13,6 +13,10 @@
 		0F8CA83926A52DC8000F6488 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8CA83826A52DC8000F6488 /* Preview Assets.xcassets */; };
 		0F8CA84426A52DC8000F6488 /* AnimalFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CA84326A52DC8000F6488 /* AnimalFriendsTests.swift */; };
 		0F8CA84F26A52DC8000F6488 /* AnimalFriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CA84E26A52DC8000F6488 /* AnimalFriendsUITests.swift */; };
+		0F8CA86026A53129000F6488 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CA85F26A53129000F6488 /* Animal.swift */; };
+		0F8CA86226A53146000F6488 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CA86126A53146000F6488 /* ModelData.swift */; };
+		0F8CA86526A531C4000F6488 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CA86426A531C4000F6488 /* FavoriteButton.swift */; };
+		0F8CA86F26A53B0B000F6488 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CA86E26A53B0B000F6488 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		0F8CA84A26A52DC8000F6488 /* AnimalFriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalFriendsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8CA84E26A52DC8000F6488 /* AnimalFriendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalFriendsUITests.swift; sourceTree = "<group>"; };
 		0F8CA85026A52DC8000F6488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F8CA85F26A53129000F6488 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		0F8CA86126A53146000F6488 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		0F8CA86426A531C4000F6488 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		0F8CA86E26A53B0B000F6488 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				0F8CA83126A52DC5000F6488 /* AnimalFriendsApp.swift */,
-				0F8CA83326A52DC5000F6488 /* ContentView.swift */,
+				0F8CA85E26A530FD000F6488 /* Views */,
+				0F8CA85D26A530F2000F6488 /* Model */,
 				0F8CA83526A52DC8000F6488 /* Assets.xcassets */,
 				0F8CA83A26A52DC8000F6488 /* Info.plist */,
 				0F8CA83726A52DC8000F6488 /* Preview Content */,
@@ -128,6 +137,57 @@
 				0F8CA85026A52DC8000F6488 /* Info.plist */,
 			);
 			path = AnimalFriendsUITests;
+			sourceTree = "<group>";
+		};
+		0F8CA85C26A52F81000F6488 /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animals;
+			sourceTree = "<group>";
+		};
+		0F8CA85D26A530F2000F6488 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F8CA85F26A53129000F6488 /* Animal.swift */,
+				0F8CA86126A53146000F6488 /* ModelData.swift */,
+				0F8CA86E26A53B0B000F6488 /* Profile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F8CA85E26A530FD000F6488 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F8CA86726A531EA000F6488 /* Profiles */,
+				0F8CA86626A531D8000F6488 /* Categories */,
+				0F8CA85C26A52F81000F6488 /* Animals */,
+				0F8CA86326A53198000F6488 /* Helpers */,
+				0F8CA83326A52DC5000F6488 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0F8CA86326A53198000F6488 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0F8CA86426A531C4000F6488 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0F8CA86626A531D8000F6488 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		0F8CA86726A531EA000F6488 /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +320,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F8CA83426A52DC5000F6488 /* ContentView.swift in Sources */,
+				0F8CA86F26A53B0B000F6488 /* Profile.swift in Sources */,
+				0F8CA86226A53146000F6488 /* ModelData.swift in Sources */,
 				0F8CA83226A52DC5000F6488 /* AnimalFriendsApp.swift in Sources */,
+				0F8CA86526A531C4000F6488 /* FavoriteButton.swift in Sources */,
+				0F8CA86026A53129000F6488 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
