@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F4E49E726AE8A8300A164A1 /* animalData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F4E49E626AE8A8300A164A1 /* animalData.json */; };
 		0F8CA83226A52DC5000F6488 /* AnimalFriendsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CA83126A52DC5000F6488 /* AnimalFriendsApp.swift */; };
 		0F8CA83426A52DC5000F6488 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CA83326A52DC5000F6488 /* ContentView.swift */; };
 		0F8CA83626A52DC8000F6488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8CA83526A52DC8000F6488 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 		0F8CA86226A53146000F6488 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CA86126A53146000F6488 /* ModelData.swift */; };
 		0F8CA86526A531C4000F6488 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CA86426A531C4000F6488 /* FavoriteButton.swift */; };
 		0F8CA86F26A53B0B000F6488 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CA86E26A53B0B000F6488 /* Profile.swift */; };
+		0FF1D2322709913A003A0D02 /* AnimalDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1D2312709913A003A0D02 /* AnimalDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F4E49E626AE8A8300A164A1 /* animalData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = animalData.json; sourceTree = "<group>"; };
 		0F8CA82E26A52DC5000F6488 /* AnimalFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8CA83126A52DC5000F6488 /* AnimalFriendsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalFriendsApp.swift; sourceTree = "<group>"; };
 		0F8CA83326A52DC5000F6488 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		0F8CA86126A53146000F6488 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		0F8CA86426A531C4000F6488 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		0F8CA86E26A53B0B000F6488 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		0FF1D2312709913A003A0D02 /* AnimalDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F4E49E526AE8A3B00A164A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E49E626AE8A8300A164A1 /* animalData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		0F8CA82526A52DC5000F6488 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +118,7 @@
 				0F8CA83126A52DC5000F6488 /* AnimalFriendsApp.swift */,
 				0F8CA85E26A530FD000F6488 /* Views */,
 				0F8CA85D26A530F2000F6488 /* Model */,
+				0F4E49E526AE8A3B00A164A1 /* Resources */,
 				0F8CA83526A52DC8000F6488 /* Assets.xcassets */,
 				0F8CA83A26A52DC8000F6488 /* Info.plist */,
 				0F8CA83726A52DC8000F6488 /* Preview Content */,
@@ -142,6 +155,7 @@
 		0F8CA85C26A52F81000F6488 /* Animals */ = {
 			isa = PBXGroup;
 			children = (
+				0FF1D2312709913A003A0D02 /* AnimalDetail.swift */,
 			);
 			path = Animals;
 			sourceTree = "<group>";
@@ -159,11 +173,11 @@
 		0F8CA85E26A530FD000F6488 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0F8CA83326A52DC5000F6488 /* ContentView.swift */,
 				0F8CA86726A531EA000F6488 /* Profiles */,
 				0F8CA86626A531D8000F6488 /* Categories */,
 				0F8CA85C26A52F81000F6488 /* Animals */,
 				0F8CA86326A53198000F6488 /* Helpers */,
-				0F8CA83326A52DC5000F6488 /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -295,6 +309,7 @@
 			files = (
 				0F8CA83926A52DC8000F6488 /* Preview Assets.xcassets in Resources */,
 				0F8CA83626A52DC8000F6488 /* Assets.xcassets in Resources */,
+				0F4E49E726AE8A8300A164A1 /* animalData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F8CA83426A52DC5000F6488 /* ContentView.swift in Sources */,
+				0FF1D2322709913A003A0D02 /* AnimalDetail.swift in Sources */,
 				0F8CA86F26A53B0B000F6488 /* Profile.swift in Sources */,
 				0F8CA86226A53146000F6488 /* ModelData.swift in Sources */,
 				0F8CA83226A52DC5000F6488 /* AnimalFriendsApp.swift in Sources */,
