@@ -1,5 +1,4 @@
 /*
-Abstract:
 A view showing the details for an animal.
 */
 
