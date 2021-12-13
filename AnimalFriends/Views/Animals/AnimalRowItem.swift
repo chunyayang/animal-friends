@@ -23,7 +23,7 @@ struct AnimalRowItem: View {
 }
 
 struct AnimalRowItem_Previews: PreviewProvider {
-    static let modelData = ModelData()
+    static var modelData = ModelData()
 
     static var previews: some View {
         AnimalRowItem(animal: modelData.animals[0])
