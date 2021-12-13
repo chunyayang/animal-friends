@@ -39,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F4E347B27678BEC00546C44 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0F4E347C27678BEC00546C44 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0F4E49E626AE8A8300A164A1 /* animalData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = animalData.json; sourceTree = "<group>"; };
 		0F8CA82E26A52DC5000F6488 /* AnimalFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8CA83126A52DC5000F6488 /* AnimalFriendsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalFriendsApp.swift; sourceTree = "<group>"; };
@@ -95,6 +97,8 @@
 		0F8CA82526A52DC5000F6488 = {
 			isa = PBXGroup;
 			children = (
+				0F4E347C27678BEC00546C44 /* LICENSE */,
+				0F4E347B27678BEC00546C44 /* README.md */,
 				0F8CA83026A52DC5000F6488 /* AnimalFriends */,
 				0F8CA84226A52DC8000F6488 /* AnimalFriendsTests */,
 				0F8CA84D26A52DC8000F6488 /* AnimalFriendsUITests */,
