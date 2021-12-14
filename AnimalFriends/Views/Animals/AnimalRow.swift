@@ -25,8 +25,6 @@ struct AnimalRow_Previews: PreviewProvider {
     static var animals = ModelData().animals
 
     static var previews: some View {
-        AnimalRow(
-            animals: Array(animals.prefix(4))
-        )
+        AnimalRow(animals: Array(animals.prefix(4)))
     }
 }
