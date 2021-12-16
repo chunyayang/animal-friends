@@ -1,17 +1,17 @@
-//
-//  AnimalFriendsApp.swift
-//  AnimalFriends
-//
-//  Created by Chunya Yang on 2021/7/19.
-//
+/*
+The top-level definition of the app.
+*/
 
 import SwiftUI
 
 @main
 struct AnimalFriendsApp: App {
+    @StateObject private var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(modelData)
         }
     }
 }
